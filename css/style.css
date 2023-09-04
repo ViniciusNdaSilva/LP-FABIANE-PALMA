@@ -379,7 +379,8 @@ body {
 /*Header Section*/
 
 .header-section {
-  background: #e0ffe0;
+  background-image: url(/images/background.png);
+  background-size: cover;
   padding: 75px 0 70px;
 }
 .header-texts {
