@@ -5,7 +5,7 @@
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus,
 .featured-price.single-pricing {
-  background: #4a2a1b;
+  background: #7b6652;
 }
 .sell-badge,
 .alt-bg,
@@ -53,7 +53,7 @@
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4a2a1b;
+  color: #4a2a1bce;
 }
 .single-pricing .icon-left,
 .single-pricing .icon-right {
