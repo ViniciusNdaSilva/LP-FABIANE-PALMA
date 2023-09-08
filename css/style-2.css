@@ -300,7 +300,7 @@ a:focus {
   HEADER
 ----------------------*/
 .header-top {
-  background: #2b2016;
+  background: #423529;
   font-size: 13px;
 }
 
@@ -1041,4 +1041,9 @@ CONTACT PAGE
 
 .colorsubtitulo {
   color: #fff;
+}
+
+.navbar > .boton-header {
+  position: absolute;
+  right: 0;
 }
