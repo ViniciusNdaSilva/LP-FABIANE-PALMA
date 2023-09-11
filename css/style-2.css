@@ -975,14 +975,14 @@ CONTACT PAGE
 }
 
 .current-year {
-  color: #f9c200 !important;
+  color: #ffffff !important;
 }
 
 .footer-btm {
   text-align: center;
-  background: rgba(0, 23, 62, 0.97);
+  background: #2b2016;
   padding: 20px 0px;
-  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  border-top: 1px solid #2b2016;
 }
 
 .footer-links a {
@@ -996,7 +996,7 @@ CONTACT PAGE
 }
 
 .footer-links a:hover {
-  background: #f9c200;
+  background: #ffffff;
   color: #222;
 }
 
@@ -1050,4 +1050,57 @@ CONTACT PAGE
 
 .center-divs {
   text-align: center;
+}
+
+.faq-list {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #b59e85;
+  color: #4a2a1b;
+}
+
+.faq-item h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.faq-item p {
+  display: none;
+  margin: 10px 0;
+}
+
+.faq-item.active p {
+  display: block;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+  .faq-section {
+    padding: 10px;
+  }
+
+  .faq-item {
+    padding: 8px;
+    background-color: #b59e85;
+    color: #4a2a1b;
+  }
+
+  .faq-item h2 {
+    font-size: 16px;
+  }
 }
