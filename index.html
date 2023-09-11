@@ -132,7 +132,7 @@
                 <a href="#" target="_blank" class="btn btn-main">
                   Comprar Agora</a
                 >
-                <a href="#" target="_blank" class="btn btn-main-2 ml-0 ml-lg-2"
+                <a href="#features" class="btn btn-main-2 ml-0 ml-lg-2"
                   >Sobre o livro</a
                 >
               </div>
@@ -158,43 +158,44 @@
               <h2>
                 Neste livro, Você encontrará ensinamentos que transformam:
               </h2>
-              <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia.
-              </p>
             </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-item">
-              <div class="feature-icon"><i class="ti-heart"></i></div>
-              <h5>More than 10+ award achieved</h5>
-              <p>Descubra a força da submissão e o que realmente significa.</p>
+          <div class="col-lg-4 col-sm-12">
+            <div class="chapter-inner">
+              <div class="chapter-item d-flex">
+                <i class="ti-check"></i>
+                <div class="content pl-4">
+                  <h4>Descubra a força da submissão e o que realmente significa.</h4>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-item">
-              <div class="feature-icon"><i class="ti-mobile"></i></div>
-              <h5>Read On Any Device</h5>
-              <p>
-                Encontre cura emocional nas histórias das mulheres que trilharam
-                caminhos de fé.
-              </p>
+          <div class="col-lg-4 col-sm-12">
+            <div class="chapter-inner">
+              <div class="chapter-item d-flex">
+                <i class="ti-check"></i>
+                <div class="content pl-4">
+                  <h4>Encontre cura emocional nas histórias das mulheres que trilharam
+                    caminhos de fé.</h4>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="feature-item">
-              <div class="feature-icon"><i class="ti-layers-alt"></i></div>
-              <h5>Very high resolution</h5>
-              <p>
-                Aprenda a prosperar e frutificar, mesmo quando o caminho parece
-                difícil.
-              </p>
+          <div class="col-lg-4 col-sm-12">
+            <div class="chapter-inner">
+              <div class="chapter-item d-flex">
+                <i class="ti-check"></i>
+                <div class="content pl-4">
+                  <h4>Aprenda a prosperar e frutificar, mesmo quando o caminho parece
+                    difícil.
+    </h4>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -796,6 +797,28 @@
               item.classList.toggle('active');
           });
       });
+    </script>
+    <script>
+      const links = document.querySelectorAll('a[href^="#"]');
+
+links.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const target = document.querySelector(link.getAttribute('href'));
+    
+    // Obtém a altura da janela de visualização
+    const windowHeight = window.innerHeight;
+
+    // Calcula a posição de rolagem ajustada
+    const scrollPosition = target.getBoundingClientRect().top + window.scrollY - windowHeight * 0.2;
+
+    window.scrollTo({
+      top: scrollPosition,
+      behavior: 'smooth'
+    });
+  });
+});
     </script>
 
     <!-- Main jQuery -->

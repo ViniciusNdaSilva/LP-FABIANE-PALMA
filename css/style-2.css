@@ -94,7 +94,7 @@ h4 {
 
 .h5,
 h5 {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .h6,
@@ -493,6 +493,9 @@ a:focus {
   padding-bottom: 70px;
 }
 .feature-item {
+  padding: 5px;
+  background-color: rgb(165, 165, 165);
+  border-radius: 5px;
   position: relative;
   padding-left: 60px;
 }

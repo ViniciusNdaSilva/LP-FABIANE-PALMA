@@ -22,9 +22,6 @@ Version      : 1.0
 11. Footer / #footer
 -------------------------------------------------------------------*/
 
-
-
-
 @import url("https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+slab:600,700,800&display=swap");
@@ -49,7 +46,8 @@ body {
   color: #6a7695;
 }
 
-body, html {
+body,
+html {
   width: 100%;
   height: 100%;
 }
@@ -72,7 +70,7 @@ h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.35;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: #263b5e;
 }
 
@@ -157,7 +155,6 @@ Common Styles
   padding: 7.5rem 0;
 }
 
-
 .section-top {
   padding-top: 8.125rem;
 }
@@ -166,10 +163,8 @@ Common Styles
   padding-bottom: 8.125rem;
 }
 
-
-
 .bg-grey {
-  background: #F4F7FC;
+  background: #f4f7fc;
 }
 
 .text-color {
@@ -253,7 +248,8 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   outline: none;
   text-decoration: none;
   color: #cc302b;
@@ -314,12 +310,12 @@ a:hover, a:focus {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
   font-weight: 700;
-  color: #051441 ;
+  color: #051441;
   text-transform: capitalize;
 }
 
 .navbar-nav .nav-link:focus {
-  color: #cc302b ;
+  color: #cc302b;
 }
 .navbar {
   position: relative;
@@ -343,22 +339,16 @@ a:hover, a:focus {
   background-size: 100% 100%;
 }
 
-
-
-.navbar-toggler{
+.navbar-toggler {
   background: #263b5e;
   border-radius: 0px;
   padding: 10px 15px;
 }
 
-
-
 .header-white {
   background: #fff;
-  transition: .0s all ease;
+  transition: 0s all ease;
 }
-
-
 
 .navbar-collapse.collapse.show {
   background: #fff;
@@ -382,28 +372,27 @@ a:hover, a:focus {
   border-color: #385777;
 }
 
-
 /* Drowdown Menu */
 
-.navbar-nav li{
+.navbar-nav li {
   position: relative;
 }
 
 .submenu {
   transition: all 300ms ease;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05),
+    -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
   border: 0px;
   padding: 0px;
   list-style: none;
   background: #fff;
   width: 220px;
   position: absolute;
-  visibility: hidden; 
+  visibility: hidden;
   opacity: 0;
   top: 120%;
   z-index: 99;
 }
-
 
 .nav-item:hover .submenu {
   opacity: 1;
@@ -411,20 +400,16 @@ a:hover, a:focus {
   top: 100%;
 }
 
-.submenu li{
+.submenu li {
   border-bottom: 1px solid #eee;
 }
-.submenu li a{
-  color: #222!important;
+.submenu li a {
+  color: #222 !important;
 }
 
-
-.navbar-nav li:hover > a{
-  color: #cc302b!important;
+.navbar-nav li:hover > a {
+  color: #cc302b !important;
 }
-
-
-
 
 /*----------------------
  BANNER STYLE
@@ -467,7 +452,7 @@ h1 {
 }
 
 .cta-home {
-  background: #F4F7FC;
+  background: #f4f7fc;
 }
 
 .featured-client img {
@@ -587,8 +572,6 @@ h1 {
   right: -40px;
 }
 
-
-
 .book-info ul li {
   padding: 8px 30px;
   margin-bottom: 5px;
@@ -621,7 +604,7 @@ h1 {
   align-items: center;
   opacity: 0;
   visibility: hidden;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .book-item .hover-item i {
@@ -633,7 +616,7 @@ h1 {
   display: inline-block;
   border-radius: 100%;
   padding-top: 20px;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 
 .book-item .hover-item i:hover {
@@ -673,7 +656,7 @@ h1 {
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #EEEEEE;
+  border-top-color: #eeeeee;
 }
 
 .panel-body {
@@ -696,7 +679,6 @@ h1 {
   color: #cc302b;
   font-size: 22px;
 }
-
 
 .service-block {
   padding: 60px 40px;
@@ -733,14 +715,14 @@ SECTION TESTIMONIAL
 -------------------------------------*/
 .testimonial {
   position: relative;
-  background: #F4F7FC;
+  background: #f4f7fc;
 }
 
 .testimonial-item-content {
   text-align: center;
-  transition: all .7s ease;
+  transition: all 0.7s ease;
   position: relative;
-  padding: 40px  30px;
+  padding: 40px 30px;
 }
 
 .testimonial-item-content:hover {
@@ -804,12 +786,13 @@ CONTACT PAGE
 
 .form-control {
   border: 1px solid rgba(0, 0, 0, 0.04);
-  background: #F4F7FC;
+  background: #f4f7fc;
   height: 60px;
   padding-left: 15px;
 }
 
-.form-control:focus, .form-control:hover {
+.form-control:focus,
+.form-control:hover {
   border-color: #cc302b;
   box-shadow: none;
 }
@@ -859,129 +842,127 @@ CONTACT PAGE
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
 }
 
-.scroll-to-top:hover, .scroll-to-top:focus {
+.scroll-to-top:hover,
+.scroll-to-top:focus {
   text-decoration: none;
 }
 
-.scroll-to-top.reveal{
+.scroll-to-top.reveal {
   opacity: 1;
   visibility: visible;
 }
 
-
-
 /* Banner 4 */
-.container-padding{
-  padding:0px 100px;
-  background:#F4F7FC;
+.container-padding {
+  padding: 0px 100px;
+  background: #f4f7fc;
 }
 
-.banner-img4{
-  margin-bottom:-90px;
+.banner-img4 {
+  margin-bottom: -90px;
 }
 
-.featured-text{
+.featured-text {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 600;
   font-size: 13px;
-  color:#cc302b;
+  color: #cc302b;
 }
 
 /*  About Section 4 */
-.about-item2{
+.about-item2 {
   position: relative;
   padding-left: 100px;
 }
 
-.about-icon{
+.about-icon {
   position: absolute;
-  content:"";
-  left:0px;
-  top:0px;
-  width:70px;
-  height:70px;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 70px;
+  height: 70px;
   text-align: center;
-  border:5px solid #ddd;
+  border: 5px solid #ddd;
   font-size: 25px;
   padding-top: 18px;
   border-radius: 100%;
   margin-top: -5px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.about-item2 h5{
-  transition: all .4s ease;
+.about-item2 h5 {
+  transition: all 0.4s ease;
 }
 
-.about-item2:hover h5{
+.about-item2:hover h5 {
   color: #cc302b;
 }
 
-.about-item2:hover .about-icon{
-  background:#cc302b;
+.about-item2:hover .about-icon {
+  background: #cc302b;
   border-color: #cc302b;
-  color:#fff;
+  color: #fff;
 }
 
 /*  Feature 4 */
 
-.feature-two{
+.feature-two {
   box-shadow: none;
-  padding:40px 40px;
+  padding: 40px 40px;
   text-align: left;
   position: relative;
-  transition: all .4s linear 0s;
+  transition: all 0.4s linear 0s;
 }
 
-.feature-two:hover{
+.feature-two:hover {
   box-shadow: 12px 7px 90px 0 rgba(110, 123, 131, 0.1);
 }
 
-.feature-two:after{
+.feature-two:after {
   position: absolute;
-  content:"";
-  left:40px;
-  width:50px;
-  height:2px;
-  background:#cc302b;
-  bottom:0px;
-  right:0px;
-  transition: all .4s linear 0s;
+  content: "";
+  left: 40px;
+  width: 50px;
+  height: 2px;
+  background: #cc302b;
+  bottom: 0px;
+  right: 0px;
+  transition: all 0.4s linear 0s;
   opacity: 0;
 }
-.feature-two:hover:after{
-  width:80%;
+.feature-two:hover:after {
+  width: 80%;
   opacity: 1;
 }
 
-
-.pt-80{
-  padding-top:80px
+.pt-80 {
+  padding-top: 80px;
 }
-.pb-80{
-  padding-bottom:80px
+.pb-80 {
+  padding-bottom: 80px;
 }
 
 /* Tetsimonial 4  */
 
-.testimonial-item2{
-  padding:40px;
-  opacity: .2;
+.testimonial-item2 {
+  padding: 40px;
+  opacity: 0.2;
   transform: scale3d(0.9, 0.9, 1);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  border:1px solid transparent;
+  border: 1px solid transparent;
 }
 
-.testimonial-slider .center .testimonial-item2{
+.testimonial-slider .center .testimonial-item2 {
   opacity: 1;
   transform: scale3d(1, 1, 1);
-  background:#fff;
+  background: #fff;
   border-radius: 5px;
-  border:1px solid #ddd;
+  border: 1px solid #ddd;
 }
-.box-shadow{
+.box-shadow {
   /* box-shadow: 0 35px 60px rgba(0,0,0,0.10); */
 }
 .testimonial-item2 p {
@@ -1001,7 +982,7 @@ CONTACT PAGE
   border-radius: 50%;
   margin: 0 auto;
   overflow: hidden;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .testimonial-item2 .author .author-info {
@@ -1018,106 +999,109 @@ CONTACT PAGE
   margin-bottom: 0px;
 }
 
-.testimonial-slider .owl-dots .owl-dot{
+.testimonial-slider .owl-dots .owl-dot {
   outline: none;
 }
 .testimonial-slider .owl-dots {
-  margin-top:40px!important;
+  margin-top: 40px !important;
 }
-.testimonial-slider .owl-dots .owl-dot.active span{
+.testimonial-slider .owl-dots .owl-dot.active span {
   background: #cc302b;
 }
 
-
-.subscribe-form .form-control{
+.subscribe-form .form-control {
   background: #fff;
 }
 
-
-
-
-
-
-
-
 /*  Dark Home style */
 
-.dark-home .main-navigation{
+.dark-home .main-navigation {
   background: #030507;
 }
 
-.dark-home .main-navigation .navbar-brand h2{
+.dark-home .main-navigation .navbar-brand h2 {
   color: #fff;
 }
 
-.dark-home .navbar-nav .nav-link{
+.dark-home .navbar-nav .nav-link {
   color: #fff;
 }
 
-.dark-bg-1{
-  background: #0A121E!important;
+.dark-bg-1 {
+  background: #0a121e !important;
 }
 
-.dark-bg-1 h1, .dark-bg-1 h2, .dark-bg-1 h3,.dark-bg-1 h4,.dark-bg-1 h5,.dark-bg-1 span,.dark-bg-1 p{
+.dark-bg-1 h1,
+.dark-bg-1 h2,
+.dark-bg-1 h3,
+.dark-bg-1 h4,
+.dark-bg-1 h5,
+.dark-bg-1 span,
+.dark-bg-1 p {
   color: #fff;
 }
-
 
 .dark-bg-1.banner-main {
   padding-top: 180px;
 }
 
-.dark-bg-2{
-  background: #17212E!important;
+.dark-bg-2 {
+  background: #17212e !important;
 }
 
-.dark-bg-2 h1,.dark-bg-2 h2, .dark-bg-2 h3 ,.dark-bg-2 h4 ,.dark-bg-2 h5,.dark-bg-2 p, .dark-bg-2 span{
+.dark-bg-2 h1,
+.dark-bg-2 h2,
+.dark-bg-2 h3,
+.dark-bg-2 h4,
+.dark-bg-2 h5,
+.dark-bg-2 p,
+.dark-bg-2 span {
   color: #fff;
 }
 
-.dark-bg-1 p,.dark-bg-2 p{
-  opacity: .9;
+.dark-bg-1 p,
+.dark-bg-2 p {
+  opacity: 0.9;
 }
 
 .dark-bg-2 .border,
-.dark-bg-1 .border{
-  border-color: rgba(255,255,255,.06)!important;
+.dark-bg-1 .border {
+  border-color: rgba(255, 255, 255, 0.06) !important;
 }
 
-.dark-bg-2 .service-block h5{
+.dark-bg-2 .service-block h5 {
   color: #000;
 }
 
-.dark-bg-2 .service-block p{
+.dark-bg-2 .service-block p {
   color: #444;
 }
 
-
-.dark-bg-2 .panel-title > a{
+.dark-bg-2 .panel-title > a {
   color: #fff;
 }
 
-.dark-bg-2 .panel-group .panel{
-  border-color: rgba(255,255,255,.08);
+.dark-bg-2 .panel-group .panel {
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
-.dark-bg-2 .more-less{
+.dark-bg-2 .more-less {
   color: #fff;
 }
 
-.dark-bg-2 .panel-body{
+.dark-bg-2 .panel-body {
   color: #fff;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-.dark-bg-2 .follow a{
+.dark-bg-2 .follow a {
   color: #fff;
 }
 
-.dark-bg-1 .counter-item i{
-  border-color: rgba(255,255,255,.08);
+.dark-bg-1 .counter-item i {
+  border-color: rgba(255, 255, 255, 0.08);
 }
 
-.dark-home .top-socials a{
-  border-color: rgba(255,255,255,.1);
+.dark-home .top-socials a {
+  border-color: rgba(255, 255, 255, 0.1);
 }
