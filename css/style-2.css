@@ -1040,10 +1040,14 @@ CONTACT PAGE
 /*# sourceMappingURL=maps/style.css.map */
 
 .colorsubtitulo {
-  color: #fff;
+  color: #8d8c8c;
 }
 
 .navbar > .boton-header {
   position: absolute;
   right: 0;
+}
+
+.center-divs {
+  text-align: center;
 }
